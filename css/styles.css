@@ -1,0 +1,17 @@
+*{
+    padding: 3%;
+    margin:3%;
+}
+body{
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahom, sans-serif;
+}
+header{
+    background-color: white;
+    padding: 5% auto;
+    margin: 3em;
+}
+section{
+    background-color: gainsboro;
+}
+
