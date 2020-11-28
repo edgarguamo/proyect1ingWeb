@@ -1,6 +1,6 @@
 *{
-    padding: 3%;
-    margin:3%;
+    padding: 1%;
+    margin: 1%;
 }
 body{
     background-color: aliceblue;
@@ -11,7 +11,97 @@ header{
     padding: 5% auto;
     margin: 3em;
 }
+header.cabeceraPrincipal{
+    width: 90%;
+    margin: 0 auto;
+}
+header.cabeceraPrincipal img{
+    width: 10%;
+    display: inline-block;
+    padding-left: 2em;
+}
+header.cabeceraPrincipal h1{
+    font-size: 2em; 
+    padding: 1em;
+    width: 80%; 
+    margin: 0 auto;
+    color: gray;
+    text-align: center;
+    display: inline-block;
+    text-shadow: rgb(211,244,200) 2px 2px 1px; 
+    }
 section{
     background-color: gainsboro;
 }
+nav.MenuPrincipal{
+    width: 90%;
+    background-color:red;
+    text-align: center;
+}
+nav.MenuPrincipal a{
+    color: #ffffff;
+    padding: 10px 0;
+    text-decoration: none;
+}
+nav.MenuPrincipal a:hover{
+    background-color: #5b3924;
+    color: white;
+}
+.piePagina{
+    width: 100%;
+    background-color:black;
+    color: gray;
+} 
+.servios article.noticias{
+    width: 30%;
+}
+.servicios article.noticias h3{
+    font-size: 3em;
+    color: rgb(4,146,146);
+    padding: 1em 0;
+}
+.servicios article.noticias p{
+    text-align: justify;
+    paddong: 1em 1em;
+    color: rgb(58,59,60);
+    font-size: 0.9em;
+}
+.piePagina h6{
+    text-align: center;
 
+}
+@media only screen and (max-width:750px){
+    header.cabeceraPrincipal{
+        width:100%;
+        margin: 0 auto;
+        border-bottom: 1px solid #000000;
+    }    
+    header.cabeceraPrincipal img{
+        max-width: 100%
+        padding: 3em;
+        width: 60%
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width:550px){
+    header.cabeceraPrincipal{
+       width: 90%;
+       margin: 0 auto;
+    }
+    header.cabeceraPrincipal h1{
+        width: 70%; 
+        font-size: 1em;
+        align: center; 
+        display: inline-block;
+    }
+    header.cabeceraPrincipal img{
+        width: 20%;
+        margin-left: 9em;
+        display: inline-block;
+    }
+    nav.MenuPrincipal a{
+        font-size: 0.75em; 
+    }
+
+}
